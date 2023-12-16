@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/*index*/
+body{
+  background: #081b29;
+  color: #ededed;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a{
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 2s;
+}
+.navbar a:hover,
+.navbar a:active{
+  color: blue;
+}
+.home{
+  height: 45vh;
+  display: flex;
+  text-align: center;
+  padding: 0 10%;
+}
+.home-content{
+  max-width: 600px;
+
+}
+.home-content{
+  font-size: 20px;
+  font-weight: 700;
+}
+.home-content h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+
+}
+.home-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0 ;
+  line-height: 1.2;
+  text-align: center;
+}
+.home-content .btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+  background: transparent;
+  text-align: center;
+  
+}
+.btn-box :nth-child(2){
+  background: transparent;
+  color: #00abf0;
+}
+
+
+.btn-box a{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 200%;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color:#081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+}
+
+.btn-box a:nth-child(2){
+  background: transparent;
+  color: #00abf0;
+}
+/*About*/
+.about{
+  height: 20vh;
+  display: flex;
+  text-align: center;
+  padding: 0 10%;
+}
+.about-content{
+  max-width: 600px;
+}
+.about-content h1{
+  font-size: 55px;
+  font-weight: 700;
+  align-items: center;
+}
+.about-content h3{
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0 ;
+}
+.about-content h2{
+  color: yellowgreen;
+}
+/*Portfolio*/
+.port{
+  text-align: center ;
+  font-size: 50px;
+}
+.work{
+  text-align: center ;
+  font-size: 30px;
+  color: #00abf0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 29%;
+}
+/*Resume*/
+.resume{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Education{
+  text-align: center;
+  color: #00abf0;
+  font-size: 40px;
+}
+.AES{
+  font-size: 45px;
+  margin-left: 350px;
+}
+.ACC{
+  font-size: 45px;
+  margin-left: 350px;
+}
+.BSIT{
+  font-size: 45px;
+  margin-left: 350px;
+}
+.Year{
+  font-size: 30px;
+  margin-left: 600px;
+  color: yellowgreen;
+}
+.WE{
+  text-align: center;
+  color: #00abf0;
+  font-size: 40px;
+}
+.PIMS{
+  font-size: 29px;
+  margin-left: 140px;
+}
+/*Contact*/
+.contact{
+  font-size: 60px;
+  text-align: center;
+}
+.GM{
+  margin-left: 605px;
+  font-size: 40px;
+}
+.M{
+  color: white;
+}
+.bar{
+  margin-left: 330px;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ededed;
+  display: flex;
+}
+ 
+
+  
+
+
+ 
+  
+
+
+ 
